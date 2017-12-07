@@ -1,14 +1,11 @@
-cat = "\t I am tabbet in"
-pers = "I am pers"
-back = "I a, \\ a \\ cat"
+#while True:
+#    for i in ["/","-","|","\\","|"]:
+#        print "%s\r" %i,
 
-fat_Cat = """
-I'll do a list:
-\t* Cat food
-\t* Fishies
-\t* Catnip\n\t* Grass
-"""
+from sys import argv
+script,name = argv
+promt = "> "
 
-print cat
-print pers
-print back
+print "Hi %s" %(name,script)
+
+
